@@ -20,7 +20,7 @@ public class KafkaServiceConsumer {
             for (ConsumerRecord<String, String> registro : records) {
                 System.out.println("------------------------------------------");
                 System.out.println("Tópico: " + registro.topic());
-                System.out.println("Produto | Qauntidade");
+                System.out.println("Produto | Quantidade");
                 System.out.println("Nome do Produto: " + registro.key());
                 System.out.println("Qauntidade: " + registro.value());
                 System.out.println("------------------------------------------");
