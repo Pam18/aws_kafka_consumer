@@ -1,0 +1,3 @@
+br/com/aws_kafka_consumer/services/PropertiesConfig.class
+br/com/aws_kafka_consumer/services/KafkaServiceConsumer.class
+br/com/aws_kafka_consumer/App.class
